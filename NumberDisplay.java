@@ -9,6 +9,7 @@ public class NumberDisplay
 {
     // instance variables - replace the example below with your own
     private int valorActual;
+
    
 
     /**
@@ -29,4 +30,20 @@ public class NumberDisplay
         // put your code here
        valorActual = valor;
     }
+    
+    /**
+     * Un método que devuelve el valor actual del display en forma de cadena de 2 caracteres (nombre del método: getDisplayValue).
+     */
+    public  String getDisplayValue (int h, int m)
+    {
+     
+       {
+            
+         String reloj = String.format("%02d,%02d", h, m);
+       
+         return reloj;
+       
+       }
+
+   }
 }
