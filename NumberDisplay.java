@@ -8,8 +8,8 @@
 public class NumberDisplay
 {
     // instance variables - replace the example below with your own
-    private int limiteDisplay;
     private int valorActual;
+   
 
     /**
      * Constructor que recibe por parámetro el límite del display y que fija el valor actual del display a 0.
@@ -17,19 +17,16 @@ public class NumberDisplay
    public NumberDisplay (int limiteDisplay)
     {
         // initialise instance variables
-        limiteDisplay = 0;
+        valorActual = 0;
      
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * Un método setter que fija el valor actual del display al valor pasado como parámetro (nombre del método: setValue).
      */
-    public void setvalue()
+    public void setvalue(int valor)
     {
         // put your code here
-       
+       valorActual = valor;
     }
 }

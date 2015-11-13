@@ -2,7 +2,7 @@
 comment0.params=limiteDisplay
 comment0.target=NumberDisplay(int)
 comment0.text=\r\n\ Constructor\ que\ recibe\ por\ par\u00E1metro\ el\ l\u00EDmite\ del\ display\ y\ que\ fija\ el\ valor\ actual\ del\ display\ a\ 0.\r\n
-comment1.params=
-comment1.target=void\ setvalue()
-comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment1.params=valor
+comment1.target=void\ setvalue(int)
+comment1.text=\r\n\ Un\ m\u00E9todo\ setter\ que\ fija\ el\ valor\ actual\ del\ display\ al\ valor\ pasado\ como\ par\u00E1metro\ (nombre\ del\ m\u00E9todo\:\ setValue).\r\n
 numComments=2
